@@ -7,6 +7,10 @@ namespace AdoDay7
     {
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.Blue;
+
+            Console.BackgroundColor = ConsoleColor.White;
+
             Console.WriteLine("You're Adding a new Student's Data ....");
 
             Tolerate.InsertData();
