@@ -7,12 +7,12 @@ namespace AdoDay7
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("You're Adding a new Student's Data ....");
-            
-            //    Tolerate.InsertData();
+            Console.WriteLine("You're Adding a new Student's Data ....");
 
-            //Console.WriteLine("You're Deleting a Student's Data From Database ....");
-            //Tolerate.DeleteFromDatabase();
+            Tolerate.InsertData();
+
+            Console.WriteLine("You're Deleting a Student's Data From Database ....");
+            Tolerate.DeleteFromDatabase();
             Tolerate.UpdateRow();
 
 
